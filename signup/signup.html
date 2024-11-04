@@ -4,22 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>회원가입</title>
+    <title>회원가입페이지</title>
     <link rel="icon" href="image/wave.ico">
     <link rel="stylesheet" href="./signup.css">
     <!-- 다음 우편번호찾기 API -->
     <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+    <script src="./signup.js"></script>
 </head>
 
-<body>
+<body onload="onload();">
     <div class="wrapper">
         <form action="serverURL" method="post" name="join" id="join">
-
             <!-- 회원가입 타이틀 부분 -->
             <header>
                 <div id="header">
-                    <h1 class="logo">~~가 되어주세요</h1>
-                    <img src="image/main.png" alt="참치라이더 메인문구">
+                    <h1 class="logo">회원가입</h1>
                 </div>
             </header>
 
